@@ -13,7 +13,7 @@ public class PhoneBookServerApplication extends SpringBootServletInitializer {
 		return application.sources(PhoneBookServerApplication.class);
 	}
 	public static void main(String[] args) {
-		
+		System.out.println("1");
 		SpringApplication.run(PhoneBookServerApplication.class, args);
 	}
 
